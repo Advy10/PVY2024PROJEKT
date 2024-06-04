@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4c6ea1;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.nav-links a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+#start-quiz {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+}
+
+#start-quiz::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+#start-quiz:hover::before {
+    visibility: visible;
+    width: 100%;
+}

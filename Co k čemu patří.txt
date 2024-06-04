@@ -1,0 +1,8 @@
+CSS:       HTML:          JAVASCRIPT:
+styles  =  index          script
+styles1 =  diskografie    ---------
+styles2 =  galerie        script2
+styles4 =  kviz           script3
+styles5 =  socialni site  script3
+styles2 =  trollingchat   script1
+
